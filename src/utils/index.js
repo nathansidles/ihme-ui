@@ -11,3 +11,9 @@ export {
   rangeToDomain,
   domainToRange
 } from './scale';
+
+export {
+  extractGeoJSON,
+  concatGeoJSON,
+  computeBounds
+} from './geo';
